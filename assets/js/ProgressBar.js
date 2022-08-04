@@ -1,3 +1,16 @@
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+     //>=, not <=
+    if (scroll >= 50) {
+        $(".progress-bar").addClass("progress");
+    }
+    if (scroll <= 50) {
+        $(".progress-bar").removeClass("progress");
+    }
+}); 
+
 $(document).on("scroll", function(){
     var pixels = $(document).scrollTop();
     var pageHeight = $(document).height() - $(window).height();
