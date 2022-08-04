@@ -1343,6 +1343,21 @@ a {
   font-size: 1vw;
 }
 
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.stat-image {
+  text-align: center;
+}
+
+lord-icon {
+    height: 12rem;
+    width: 12rem;
+}
+
 /* ************ Media Queries ************** */
 
 @media screen and (max-width:1227px) {
