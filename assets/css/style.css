@@ -566,7 +566,7 @@ a {
 .cpf-card {
   margin: 10px;
   padding: 40px;
-  background: #2bc0e4;
+  background: #e42bde;
   background: -webkit-linear-gradient(to bottom, #eaecc6, #2bc0e4);
   background: linear-gradient(to bottom, #eaecc6, #2bc0e4);
   border-radius: 10px;
@@ -586,7 +586,8 @@ a {
   text-align: center;
   font-family: Montserrat;
   position: relative;
-  background: linear-gradient(-45deg,rgba(255,255,255,.1),rgba(69,231,236,.4));
+  background: linear-gradient(-45deg,rgba(240, 139, 225, 0.402),rgba(228, 4, 240, 0.4));
+    /* background:linear-gradient(65.7deg, #f55dd4 9.76%, #A481EF 40.43%, #8D5DF5 87.38%); */
   backdrop-filter: blur(20px);
   box-shadow: 5px 5px 15px 0 rgba(27,3%,3%,25%);
   border-radius: 20px;
@@ -630,7 +631,7 @@ a {
   left: 0;
   width: 50%;
   height: 100%;
-  background: linear-gradient(to left,rgba(157,233,247,.438),transparent);
+  background: linear-gradient(to left,rgba(212, 144, 201, 0.292),transparent);
   transform: skew(-18deg);
   transition: .5s;
   border-radius: 10px;
