@@ -579,12 +579,19 @@ a {
   padding: 0 50px;
 }
 .contact-card {
-  background-color: #feeceb;
-  border-radius: 15px;
   padding: 40px;
   text-align: center;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1), 0 2px 6px 0 rgba(0, 0, 0, 0.1);
   font-family: Montserrat;
+  position: relative;
+  background: linear-gradient(-45deg,rgba(255,255,255,.1),rgba(69,231,236,.4));
+  backdrop-filter: blur(20px);
+  box-shadow: 5px 5px 15px 0 rgba(27,3%,3%,25%);
+  border-radius: 20px;
+  border-top: 4px solid rgba(157,233,247,.438);
+  border-bottom: 4px solid rgba(157,233,247,.438);
+  display: flex;
+  flex-direction: column;
+  transition: .5s;
 }
 .contact-card span {
   background-color: #fb5858;
@@ -608,6 +615,26 @@ a {
 .contact-content {
   margin-top: 40px;
 }
+
+.contact-card:hover::before {
+  transform: translateX(100%);
+}
+
+.contact-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to left,rgba(157,233,247,.438),transparent);
+  transform: skew(-18deg);
+  transition: .5s;
+  border-radius: 10px;
+  z-index: -2;
+}
+
+
 .themes-bg {
   background-color: rgba(21, 41, 54, 1);
   background-size: cover;
@@ -1317,7 +1344,7 @@ a {
   font-size: 1vw;
 }
 
-//////////////////////Media Queries//////////////////////////////
+/* //////////////////////Media Queries////////////////////////////// */
 
 @media screen and (max-width:1227px) {
   .home_hackCBS>h1 {
@@ -1471,4 +1498,56 @@ a {
   #workshop-card-button>span{
       font-size: 2.7vw;
   }
+}
+
+
+.speaker-links {
+  /* position: absolute; */
+  width: 100%;
+  margin-top: 2.2rem;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  opacity: 2;
+  backdrop-filter: blur(8px);
+  visibility: hidden;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+}
+.linkBx{
+  width: 100%;
+}
+.speaker-links .spklinks {
+  position: relative;
+  display: flex;
+  text-align: center;
+    justify-content: center;
+  padding: 0;
+}
+
+.spklinks li {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.spklinks li {
+  list-style: none;
+  margin: 0 10px;
+  transform: translateY(9px);
+  /* transition: 0.5s; */
+  opacity: 1;
+  /* transition-delay: calc(0.2s*var(--i)); */
+}
+
+.spklinks li a {
+  color: #000;
+  font-size: 24px;
+}
+
+.speaker-card:hover .speaker-links{
+  margin-top: -4.2rem;
+  z-index: 99;
+  visibility: visible;
 }
