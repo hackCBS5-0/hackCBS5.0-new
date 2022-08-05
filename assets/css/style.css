@@ -10,7 +10,9 @@
   height: 6px; 
   /* background: rgb(175, 103, 226); */
   /* background-color: rgb(167, 85, 214); */
-  background: linear-gradient(65.7deg, #FC5FD9 9.76%, #A481EF 40.43%, #8D5DF5 87.38%); 
+  background: linear-gradient(65.7deg, #FC5FD9 9.76%, #A481EF 40.43%, #8D5DF5 87.38%);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
   transition: all linear 0.1s; 
   min-width: 1%;
   z-index: 100;
@@ -106,7 +108,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
-  padding: 0.9rem 4rem;
+  padding: 1.2rem 3rem;
   color: #FFFFFF;
   /* background: linear-gradient(45deg, #f87bdd, #ff69de, #ee36ff, #b51afd, #891bff, #a824ff); */
   background: linear-gradient(92.48deg, #FC5FD9 0.26%, #8D5DF5 39.81%, rgba(141, 93, 245, 0.5) 91.19%);
@@ -124,7 +126,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
-  padding: 0.7rem 3rem;
+  padding: 0.95rem 2.6rem;
   color: #FFFFFF;
   background: #1F2631;
   border-radius: 12px;
@@ -158,6 +160,10 @@
   border-radius: 10px;
 }
 
+.banner-button-style:hover {
+  border-radius: 10px !important;
+}
+
 .banner-button-style:active{
   color: white;
 }
@@ -170,7 +176,7 @@
   opacity: 1;
 }
 
-.banner-button-style:after {
+button.banner-button-style:after {
   z-index: -1;
   content: '';
   position: absolute;
@@ -180,9 +186,10 @@
   left: 0;
   top: 0;
   border-radius: 10px;
+  transform: unset;
 }
 
-.button-register:after {
+button.button-register:after {
   background: transparent;
 }
 
@@ -274,8 +281,7 @@ section#counter-stats {
   float: left;
   border-radius: 10px;
 }
-.card-image img {
-}
+
 .card-content {
   float: right;
 }
@@ -305,10 +311,7 @@ section#counter-stats {
 .card-image2 {
   border-radius: 10px;
 }
-.card-image2 img {
-}
-.card-content2 {
-}
+
 .card-content2 h3 {
   font-size: 20px;
   margin-top: 5px;
@@ -563,7 +566,7 @@ a {
 .cpf-card {
   margin: 10px;
   padding: 40px;
-  background: #2bc0e4;
+  background: #e42bde;
   background: -webkit-linear-gradient(to bottom, #eaecc6, #2bc0e4);
   background: linear-gradient(to bottom, #eaecc6, #2bc0e4);
   border-radius: 10px;
@@ -583,7 +586,8 @@ a {
   text-align: center;
   font-family: Montserrat;
   position: relative;
-  background: linear-gradient(-45deg,rgba(255,255,255,.1),rgba(69,231,236,.4));
+  background: linear-gradient(-45deg,rgba(240, 139, 225, 0.402),rgba(228, 4, 240, 0.4));
+    /* background:linear-gradient(65.7deg, #f55dd4 9.76%, #A481EF 40.43%, #8D5DF5 87.38%); */
   backdrop-filter: blur(20px);
   box-shadow: 5px 5px 15px 0 rgba(27,3%,3%,25%);
   border-radius: 20px;
@@ -627,7 +631,7 @@ a {
   left: 0;
   width: 50%;
   height: 100%;
-  background: linear-gradient(to left,rgba(157,233,247,.438),transparent);
+  background: linear-gradient(to left,rgba(212, 144, 201, 0.292),transparent);
   transform: skew(-18deg);
   transition: .5s;
   border-radius: 10px;
@@ -1068,8 +1072,7 @@ a {
 #prizes {
   background-color: rgb(240, 245, 250);
 }
-.prizes {
-}
+
 .prize-card {
   margin: 10px;
   border-bottom-right-radius: 5px;
@@ -1344,7 +1347,7 @@ a {
   font-size: 1vw;
 }
 
-/* //////////////////////Media Queries////////////////////////////// */
+/* ************ Media Queries ************** */
 
 @media screen and (max-width:1227px) {
   .home_hackCBS>h1 {
