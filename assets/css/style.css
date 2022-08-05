@@ -18,6 +18,12 @@
   z-index: 100;
 }
 
+@media screen and (max-width: 768px) {
+  .progress {
+    top: 94px;
+  }
+}
+
 /************************ Banner ****************************/
 
 .home_container {
