@@ -18,6 +18,12 @@
   z-index: 100;
 }
 
+@media screen and (max-width: 768px) {
+  .progress {
+    top: 94px;
+  }
+}
+
 /************************ Banner ****************************/
 
 .home_container {
@@ -1033,6 +1039,9 @@ a {
   }
 }
 @media screen and (max-width: 1024px) {
+  .lgx-header .lgx-navbar .lgx-nav li a {
+    font-size: 1.2rem;
+  }
   .home-button1 {
     float: none;
   }
