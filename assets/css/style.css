@@ -461,15 +461,20 @@ a {
   margin: 3rem;
   padding: 35px 24px;
   background-color: #fff;
-  border-radius: 5px;
+  /* border-radius: 5px; */
+  border-radius: 20px;
   justify-content: center;
   align-content: center;
   text-align: center;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  background: linear-gradient(159.8deg, #F8F5FF 0%, #F0E9FF 88.57%);
+  box-shadow: 2px 2px 40px rgb(0 0 0 / 25%);
+  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1); */
 }
 .speaker-card:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1); */
+  box-shadow: 2px 2px 20px rgb(45, 42, 42);
   cursor: pointer;
+
 }
 .speaker-img img {
   border-radius: 200px;
