@@ -1409,7 +1409,7 @@ a {
   .home_hackCBS>h1 {
       font-size: 15vw;
       line-height: 110px;
-      margin-top: 6vh;
+      margin-top: -5vh;
       margin-bottom: 2vh;
   }
   .home_hackCBS>h1>span{
@@ -1420,7 +1420,7 @@ a {
 @media screen and (max-width: 545px) {
   .home_date-container p {
     font-size: 2.5rem;
-    margin-top: 10rem;
+    margin-top: 15rem;
 }
   .home_hackCBS .text{
       font-size: 7vw;
