@@ -29,7 +29,7 @@
 .home_container {
   width: 100vw;
   /* height: 100vh; */
-  background: rgba(31, 38, 49, 0.9);
+  background: rgba(31, 38, 49, 0.92);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1431,6 +1431,12 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: initial;
+  }
+  .home_date-container{
+    background: rgba(31, 38, 49, 0.92);
+  }
+  .banner-parallax{
+    background-image: url("../img/banner-mobile.png");
   }
 
   .button-register{
