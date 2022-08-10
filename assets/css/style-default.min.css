@@ -153,7 +153,7 @@ a {
 a.active,
 a:focus,
 a:hover {
-  color: #7870c7;
+  color: #9a60e0;
   -moz-transition-duration: 0.3s;
   -webkit-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
@@ -12102,3 +12102,4 @@ blockquote.lgx-testi-single:before {
     padding: 23px 24px 20px !important;
 }
 }
+
