@@ -1,13 +1,15 @@
 
+$(".progress").hide();
+
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
-
-     //>=, not <=
+    
+    //  //>=, not <=
     if (scroll >= 50) {
-        $(".progress-bar").addClass("progress");
+        $(".progress").show();
     }
-    if (scroll <= 50) {
-        $(".progress-bar").removeClass("progress");
+    if (scroll < 50) {
+        $(".progress").hide();
     }
 }); 
 
