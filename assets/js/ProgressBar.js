@@ -1,7 +1,9 @@
 
+$(".progress").hide();
+
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
-
+    
     //  //>=, not <=
     if (scroll >= 50) {
         $(".progress").show();
