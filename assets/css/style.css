@@ -55,6 +55,7 @@
   font-size: 14vw;
   /* line-height: 230px; */
   color: #F8F5FF;
+  margin-top: 9vh;
 }
 
 .home_hackCBS .text {
@@ -460,9 +461,7 @@ a {
   height: 350px;
   margin: 3rem;
   padding: 35px 24px;
-  background-color: #fff;
-  /* border-radius: 5px; */
-  border-radius: 20px;
+  border-radius: 15px;
   justify-content: center;
   align-content: center;
   text-align: center;
@@ -597,13 +596,15 @@ a {
   text-align: center;
   font-family: Montserrat;
   position: relative;
-  background: linear-gradient(-45deg,rgba(240, 139, 225, 0.402),rgba(228, 4, 240, 0.4));
-    /* background:linear-gradient(65.7deg, #f55dd4 9.76%, #A481EF 40.43%, #8D5DF5 87.38%); */
+  /* background: linear-gradient(-45deg,rgba(240, 139, 225, 0.402),rgba(228, 4, 240, 0.4)); */
+  background: linear-gradient(136.71deg, #F0E9FF 0%, rgba(180, 146, 255, 1) 97.19%, #B492FF 97.19%);
   backdrop-filter: blur(20px);
   box-shadow: 5px 5px 15px 0 rgba(27,3%,3%,25%);
   border-radius: 20px;
-  border-top: 4px solid rgba(157,233,247,.438);
-  border-bottom: 4px solid rgba(157,233,247,.438);
+  /* border-top: 4px solid rgba(157,233,247,.438);
+  border-bottom: 4px solid rgba(157,233,247,.438); */
+  border-top: 4px solid rgba(227, 220, 241, 0.45);
+  border-bottom: 4px solid rgba(232, 226, 246, 0.45);
   display: flex;
   flex-direction: column;
   transition: .5s;
@@ -1138,6 +1139,14 @@ a {
 .prize-body hr {
   margin: 5px 0px;
 }
+.prize-know-btn{
+  background-color: #EA4C89;
+}
+
+.prize-know-btn:hover{
+  background-color: #FC5FB0;
+}
+
 #workshops {
   background-color: #5bc2e0;
 }
@@ -1396,23 +1405,11 @@ a {
   }
 }
 
-@media screen and (max-width:640px) {
-  .home_button-container{
-      flex-direction: column;
-      justify-content: center;
-      align-items: initial;
-  }
-
-  .button-register{
-      margin-right: 0;
-      margin-bottom: 1rem;
-  }
-}
-
 @media screen and (max-width:624px) {
   .home_hackCBS>h1 {
       font-size: 15vw;
       line-height: 110px;
+      margin-top: 6vh;
   }
   .home_hackCBS>h1>span{
       font-size: 17vw;
@@ -1430,11 +1427,19 @@ a {
       margin: -2rem auto 0 auto;
       padding-left: auto;
   }
+  .home_button-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: initial;
+  }
+
+  .button-register{
+      margin-right: 0;
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+  }
   .button-discord{
     font-size: 1.2rem;
-  }
-  .button-register{
-      font-size: 1.2rem;
   }
 }
 
