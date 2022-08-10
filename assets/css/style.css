@@ -1410,6 +1410,7 @@ a {
       font-size: 15vw;
       line-height: 110px;
       margin-top: 6vh;
+      margin-bottom: 2vh;
   }
   .home_hackCBS>h1>span{
       font-size: 17vw;
@@ -1418,7 +1419,7 @@ a {
 
 @media screen and (max-width: 545px) {
   .home_date-container p {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 10rem;
 }
   .home_hackCBS .text{
@@ -1432,8 +1433,8 @@ a {
     justify-content: center;
     align-items: initial;
   }
-  .home_date-container{
-    background: rgba(31, 38, 49, 0.92);
+  .home_container{
+    background: rgba(31, 38, 49, 0.75);
   }
   .banner-parallax{
     background-image: url("../img/banner-mobile.png");
@@ -1442,10 +1443,10 @@ a {
   .button-register{
       margin-right: 0;
       margin-bottom: 1rem;
-      font-size: 1.2rem;
+      font-size: 2rem;
   }
   .button-discord{
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 }
 
