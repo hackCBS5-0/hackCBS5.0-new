@@ -18,12 +18,18 @@
   z-index: 100;
 }
 
+@media screen and (max-width: 768px) {
+  .progress {
+    top: 94px;
+  }
+}
+
 /************************ Banner ****************************/
 
 .home_container {
   width: 100vw;
   /* height: 100vh; */
-  background: rgba(31, 38, 49, 0.9);
+  background: rgba(31, 38, 49, 0.92);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,6 +55,7 @@
   font-size: 14vw;
   /* line-height: 230px; */
   color: #F8F5FF;
+  margin-top: 9vh;
 }
 
 .home_hackCBS .text {
@@ -454,16 +461,19 @@ a {
   height: 350px;
   margin: 3rem;
   padding: 35px 24px;
-  background-color: #fff;
-  border-radius: 5px;
+  border-radius: 15px;
   justify-content: center;
   align-content: center;
   text-align: center;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  background: linear-gradient(159.8deg, #F8F5FF 0%, #F0E9FF 88.57%);
+  box-shadow: 2px 2px 40px rgb(0 0 0 / 25%);
+  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1); */
 }
 .speaker-card:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1); */
+  box-shadow: 2px 2px 20px rgb(45, 42, 42);
   cursor: pointer;
+
 }
 .speaker-img img {
   border-radius: 200px;
@@ -586,13 +596,15 @@ a {
   text-align: center;
   font-family: Montserrat;
   position: relative;
-  background: linear-gradient(-45deg,rgba(240, 139, 225, 0.402),rgba(228, 4, 240, 0.4));
-    /* background:linear-gradient(65.7deg, #f55dd4 9.76%, #A481EF 40.43%, #8D5DF5 87.38%); */
+  /* background: linear-gradient(-45deg,rgba(240, 139, 225, 0.402),rgba(228, 4, 240, 0.4)); */
+  background: linear-gradient(136.71deg, #F0E9FF 0%, rgba(180, 146, 255, 1) 97.19%, #B492FF 97.19%);
   backdrop-filter: blur(20px);
   box-shadow: 5px 5px 15px 0 rgba(27,3%,3%,25%);
   border-radius: 20px;
-  border-top: 4px solid rgba(157,233,247,.438);
-  border-bottom: 4px solid rgba(157,233,247,.438);
+  /* border-top: 4px solid rgba(157,233,247,.438);
+  border-bottom: 4px solid rgba(157,233,247,.438); */
+  border-top: 4px solid rgba(227, 220, 241, 0.45);
+  border-bottom: 4px solid rgba(232, 226, 246, 0.45);
   display: flex;
   flex-direction: column;
   transition: .5s;
@@ -1033,6 +1045,9 @@ a {
   }
 }
 @media screen and (max-width: 1024px) {
+  .lgx-header .lgx-navbar .lgx-nav li a {
+    font-size: 1.2rem;
+  }
   .home-button1 {
     float: none;
   }
@@ -1124,8 +1139,17 @@ a {
 .prize-body hr {
   margin: 5px 0px;
 }
+.prize-know-btn{
+  background-color: #EA4C89;
+}
+
+.prize-know-btn:hover{
+  background-color: #FC5FB0;
+}
+
 #workshops {
-  background-color: #5bc2e0;
+  background-color: #f9fafc;
+  /* background-color: #5bc2e0; */
 }
 .flip-card {
   width: 100%;
@@ -1172,7 +1196,7 @@ a {
   margin: 2px;
 }
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: #ffe6ea;
   color: white;
   padding: 5px 20px;
   transform: rotateY(180deg);
@@ -1206,10 +1230,35 @@ a {
   align-content: center;
   text-align: center;
 }
+
 .workshop-btn button {
   width: 150px;
   padding: 8px 12px;
+  color: #e11f83;
+  background-color: transparent;
+  border: 2px solid #f74ca4;
+  border-radius: 10px !important;
 }
+
+.workshop-btn .btn-danger{
+  background-color: #f74ca4;
+  color: white;
+  border-radius: 10px !important;
+  border: 2px solid #f74ca4;  
+}
+
+.workshop-btn button:hover{
+  background: #f74ca4;
+  border-color: #f74ca4;
+  font-size: 15px;
+}
+
+.workshop-btn .btn-danger:hover{
+  background: transparent;
+  color: #f74ca4;
+  font-size: 15px;
+}
+
 .modal-body h5 {
   font-size: 2rem;
   font-weight: 700;
@@ -1397,23 +1446,12 @@ lord-icon {
   }
 }
 
-@media screen and (max-width:640px) {
-  .home_button-container{
-      flex-direction: column;
-      justify-content: center;
-      align-items: initial;
-  }
-
-  .button-register{
-      margin-right: 0;
-      margin-bottom: 1rem;
-  }
-}
-
 @media screen and (max-width:624px) {
   .home_hackCBS>h1 {
       font-size: 15vw;
       line-height: 110px;
+      margin-top: -2vh;
+      margin-bottom: 2vh;
   }
   .home_hackCBS>h1>span{
       font-size: 17vw;
@@ -1422,8 +1460,8 @@ lord-icon {
 
 @media screen and (max-width: 545px) {
   .home_date-container p {
-    font-size: 2rem;
-    margin-top: 10rem;
+    font-size: 2.7rem;
+    margin-top: 15rem;
 }
   .home_hackCBS .text{
       font-size: 7vw;
@@ -1431,11 +1469,26 @@ lord-icon {
       margin: -2rem auto 0 auto;
       padding-left: auto;
   }
-  .button-discord{
-    font-size: 1.2rem;
+  .home_button-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: initial;
+    margin-bottom: 12rem;
   }
+  .home_container{
+    background: rgba(31, 38, 49, 0.75);
+  }
+  .banner-parallax{
+    background-image: url("../img/banner-mobile.png");
+  }
+
   .button-register{
-      font-size: 1.2rem;
+      margin-right: 0;
+      margin-bottom: 1rem;
+      font-size: 2.5rem;
+  }
+  .button-discord{
+    font-size: 2.5rem;
   }
 }
 
@@ -1566,3 +1619,18 @@ lord-icon {
   z-index: 99;
   visibility: visible;
 }
+
+
+/***  scroll to top button  *****/
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 50%;
+  background:linear-gradient(65.7deg, #FC5FD9 9.76%, #A481EF 40.43%, #8D5DF5 87.38%);
+  font-size: 20px;
+}
+

@@ -21,6 +21,7 @@
     <link id=lgx-master-style rel=stylesheet href="assets/css/style-default.min.css" media=all />
     <link rel='stylesheet' href="assets/css/font.css" media=all>
     <link rel="stylesheet" href="assets/css/style.css" media=all>
+    <link rel="stylesheet" href="assets/css/prizes.css" media=all>
     <link rel="stylesheet" href="assets/css/normalize.min.css">
     <link rel="stylesheet" href="assets/libs/aos/aos.css">
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
@@ -31,7 +32,7 @@
 </head>
 
 <body class=home>
-    <div class="progress"></div>
+    <div class="progress-bar progress"></div>
     <!--[if lt IE 8]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p> <![endif]-->
     <div class="lgx-container ">
         <header>
@@ -43,12 +44,14 @@
                                     data-toggle=collapse data-target="#navbar" aria-expanded=false aria-controls=navbar>
                                     <span class=sr-only>Toggle navigation</span> <span class=icon-bar></span> <span
                                         class=icon-bar></span> <span class=icon-bar></span> </button>
-                                <div class=lgx-logo> <a href="#home" class=lgx-scroll> <img src="assets/img/logo.png"
-                                            alt="hackCBS Logo" /> </a></div>
+                                    <div class=lgx-logo> 
+                                        <a href="#home" class=lgx-scroll> 
+                                            <img src="assets/img/logo5.0-new.png" alt="hackCBS Logo" /> 
+                                        </a>
+                                    </div>
                             </div>
                             <div id=navbar class="navbar-collapse collapse lgx-collapse">
                                 <ul class="nav navbar-nav lgx-nav mt-3">
-                                    <li><a class=lgx-scroll href="#home">Home</a></li>
                                     <li><a class=lgx-scroll href="#about">About</a></li>
                                     <li><a class=lgx-scroll href="#speakers">Speakers</a></li>
                                     <li><a class=lgx-scroll href="#workshops">Workshops</a></li>
@@ -56,6 +59,7 @@
                                     <li><a class=lgx-scroll href="#prizes">Prizes</a></li>
                                     <li><a class=lgx-scroll href="#schedule">Schedule</a></li>
                                     <li><a class=lgx-scroll href="#sponsors">Sponsors</a></li>
+                                    <li><a class=lgx-scroll href="#team">Team</a></li>
                                     <li><a class=lgx-scroll href="#faq">FAQ'<span class="text-lowercase">s</span></a>
                                     </li>
                                     <!-- <li><a class=lgx-scroll href="#teams">Team</a></li> -->
@@ -107,7 +111,7 @@
                 <div class="row">
                     <div class="col-12" data-aos="fade-up" data-aos-duration="1000"
                         data-aos-anchor-placement="top-bottom">
-                        <p><b><i>hackCBS 3.0</i></b>, a legacy being carried forward by like-minded individuals aims to
+                        <p><b><i>hackCBS 5.0</i></b>, a legacy being carried forward by like-minded individuals aims to
                             collaborate the intellects of programmers, designers, application developers, tech-geeks and
                             newbies in the world of programming for the intensive development of a hack. <br>At hackCBS,
                             we help you turn your ideas into reality by providing a comforting and welcoming
@@ -288,16 +292,16 @@
                                     loading=lazy></div>
                             <div class="speaker-content">
                                 <h3>Jason Mayes</h3>
-                                <h4>Senior Developer Advocate<br>for TensorFlow.js</h4> <img
-                                    src="assets/img/speakers/google.png" width="28%" loading=lazy>
+                                <h4>Senior Developer Advocate for TensorFlow.js</h4> 
+                                <img src="assets/img/speakers/google.png" width="28%" loading=lazy>
                             </div>
                             <div class="speaker-links">
                                 <div class="linkBx">
                                     <ul class="spklinks">
                                         <li style="--i:1;"><a href="#"><i class="fab fa-facebook-f"
                                                     aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
-                                                        class="fab fa-instagram" aria-hidden=true></i></a></li>
+                                        <!-- <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
+                                                        class="fab fa-instagram" aria-hidden=true></i></a></li> -->
                                         <li><a href="https://www.linkedin.com/company/hackcbs" target="_blank"><i
                                                         class="fab fa-linkedin-in" aria-hidden=true></i></a></li>
                                     </ul>
@@ -320,8 +324,8 @@
                                     <ul class="spklinks">
                                         <li style="--i:1;"><a href="#"><i class="fab fa-facebook-f"
                                                     aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
-                                                        class="fab fa-instagram" aria-hidden=true></i></a></li>
+                                        <!-- <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
+                                                        class="fab fa-instagram" aria-hidden=true></i></a></li> -->
                                         <li><a href="https://www.linkedin.com/company/hackcbs" target="_blank"><i
                                                         class="fab fa-linkedin-in" aria-hidden=true></i></a></li>
                                     </ul>
@@ -343,8 +347,8 @@
                                     <ul class="spklinks">
                                         <li style="--i:1;"><a href="#"><i class="fab fa-facebook-f"
                                                     aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
-                                                        class="fab fa-instagram" aria-hidden=true></i></a></li>
+                                        <!-- <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
+                                                        class="fab fa-instagram" aria-hidden=true></i></a></li> -->
                                         <li><a href="https://www.linkedin.com/company/hackcbs" target="_blank"><i
                                                         class="fab fa-linkedin-in" aria-hidden=true></i></a></li>
                                     </ul>
@@ -355,19 +359,20 @@
                     <div class="col-lg-4 col-xl-4 col-sm-6 col-xs-6 col-md-4" style="padding: 0px;" data-aos="fade-up"
                         data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
                         <div class="speaker-card">
-                            <div class="speaker-img"> <img src="assets/img/speakers/Dimitry.jpg" width="100%"
+                            <div class="speaker-img"> <img src="assets/img/speakers/Jason.jpeg" width="100%"
                                     loading=lazy></div>
                             <div class="speaker-content">
-                                <h3>Dmitry Shklovsky</h3>
-                                <h4>Co-Founder</h4> <img src="assets/img/sponsors/quiknode-min.png" width="35%">
+                                <h3>Jason Mayes</h3>
+                                <h4>Senior Developer Advocate for TensorFlow.js</h4> 
+                                <img src="assets/img/speakers/google.png" width="28%" loading=lazy>
                             </div>
                             <div class="speaker-links">
                                 <div class="linkBx">
                                     <ul class="spklinks">
                                         <li style="--i:1;"><a href="#"><i class="fab fa-facebook-f"
                                                     aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
-                                                        class="fab fa-instagram" aria-hidden=true></i></a></li>
+                                        <!-- <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
+                                                        class="fab fa-instagram" aria-hidden=true></i></a></li> -->
                                         <li><a href="https://www.linkedin.com/company/hackcbs" target="_blank"><i
                                                         class="fab fa-linkedin-in" aria-hidden=true></i></a></li>
                                     </ul>
@@ -378,34 +383,11 @@
                     <div class="col-lg-4 col-xl-4 col-sm-6 col-xs-6 col-md-4" style="padding: 0px;" data-aos="fade-up"
                         data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
                         <div class="speaker-card">
-                            <div class="speaker-img"> <img src="assets/img/speakers/Sandeep.jpeg" width="100%"
+                            <div class="speaker-img"> <img src="assets/img/speakers/Aravind.jpeg" width="100%"
                                     loading=lazy></div>
                             <div class="speaker-content">
-                                <h3>Sandeep Jain</h3>
-                                <h4>Founder</h4> <img src="assets/img/speakers/geeksforgeeks.jpeg" width="50%">
-                            </div>
-                            <div class="speaker-links">
-                                <div class="linkBx">
-                                    <ul class="spklinks">
-                                        <li style="--i:1;"><a href="#"><i class="fab fa-facebook-f"
-                                                    aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
-                                                        class="fab fa-instagram" aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/hackcbs" target="_blank"><i
-                                                        class="fab fa-linkedin-in" aria-hidden=true></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-xl-4 col-sm-6 col-xs-6 col-md-4" style="padding: 0px;" data-aos="fade-up"
-                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
-                        <div class="speaker-card">
-                            <div class="speaker-img"> <img src="assets/img/speakers/Sahil.jpeg" width="100%"
-                                    loading=lazy></div>
-                            <div class="speaker-content">
-                                <h3>Sahil Sen</h3>
-                                <h4>Developer Evangelist</h4> <img src="assets/img/sponsors/quiknode-min.png"
+                                <h3>Aravind Putrevu</h3>
+                                <h4>Senior Developer Advocate</h4> <img src="assets/img/speakers/elastic.svg"
                                     width="35%">
                             </div>
                             <div class="speaker-links">
@@ -413,8 +395,8 @@
                                     <ul class="spklinks">
                                         <li style="--i:1;"><a href="#"><i class="fab fa-facebook-f"
                                                     aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
-                                                        class="fab fa-instagram" aria-hidden=true></i></a></li>
+                                        <!-- <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
+                                                        class="fab fa-instagram" aria-hidden=true></i></a></li> -->
                                         <li><a href="https://www.linkedin.com/company/hackcbs" target="_blank"><i
                                                         class="fab fa-linkedin-in" aria-hidden=true></i></a></li>
                                     </ul>
@@ -425,207 +407,19 @@
                     <div class="col-lg-4 col-xl-4 col-sm-6 col-xs-6 col-md-4" style="padding: 0px;" data-aos="fade-up"
                         data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
                         <div class="speaker-card">
-                            <div class="speaker-img"> <img src="assets/img/speakers/Saurabh.jpeg" width="100%"
+                            <div class="speaker-img"> <img src="assets/img/speakers/Kin-Lane.jpeg" width="100%"
                                     loading=lazy></div>
                             <div class="speaker-content">
-                                <h3>Saurabh Gupta</h3>
-                                <h4>Senior Developer Advocate</h4> <img src="assets/img/speakers/digitalocean.png"
-                                    width="45%">
+                                <h3>Kin Lane</h3>
+                                <h4>Chief Evangelist</h4> <img src="assets/img/speakers/Postman.svg" width="38%">
                             </div>
                             <div class="speaker-links">
                                 <div class="linkBx">
                                     <ul class="spklinks">
                                         <li style="--i:1;"><a href="#"><i class="fab fa-facebook-f"
                                                     aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
-                                                        class="fab fa-instagram" aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/hackcbs" target="_blank"><i
-                                                        class="fab fa-linkedin-in" aria-hidden=true></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-xl-4 col-sm-6 col-xs-6 col-md-4" style="padding: 0px;" data-aos="fade-up"
-                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
-                        <div class="speaker-card">
-                            <div class="speaker-img"> <img src="assets/img/speakers/Rajat.jpeg" width="100%"
-                                    loading=lazy></div>
-                            <div class="speaker-content">
-                                <h3>Rajat Jain</h3>
-                                <h4>Software Engineer II</h4> <img src="assets/img/sponsors/microsoft-min.png"
-                                    width="35%">
-                            </div>
-                            <div class="speaker-links">
-                                <div class="linkBx">
-                                    <ul class="spklinks">
-                                        <li style="--i:1;"><a href="#"><i class="fab fa-facebook-f"
-                                                    aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
-                                                        class="fab fa-instagram" aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/hackcbs" target="_blank"><i
-                                                        class="fab fa-linkedin-in" aria-hidden=true></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-xl-4 col-sm-6 col-xs-6 col-md-4" style="padding: 0px;" data-aos="fade-up"
-                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
-                        <div class="speaker-card">
-                            <div class="speaker-img"> <img src="assets/img/speakers/Kunal.jpeg" width="100%"
-                                    loading=lazy></div>
-                            <div class="speaker-content">
-                                <h3>Kunal Kushwaha</h3>
-                                <h4>GSoC Mentor, MLH Fellowship,<br>Founder</h4> <img
-                                    src="assets/img/speakers/code-for-cause.svg" width="70%" style="margin-left: 30px">
-                            </div>
-                            <div class="speaker-links">
-                                <div class="linkBx">
-                                    <ul class="spklinks">
-                                        <li style="--i:1;"><a href="#"><i class="fab fa-facebook-f"
-                                                    aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
-                                                        class="fab fa-instagram" aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/hackcbs" target="_blank"><i
-                                                        class="fab fa-linkedin-in" aria-hidden=true></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-xl-4 col-sm-6 col-xs-6 col-md-4" style="padding: 0px;" data-aos="fade-up"
-                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
-                        <div class="speaker-card">
-                            <div class="speaker-img"> <img src="assets/img/speakers/Gurtej.jpeg" width="100%"
-                                    loading=lazy></div>
-                            <div class="speaker-content">
-                                <h3>Gurtej Singh</h3>
-                                <h4>Program & Growth Manager <br>Board Infinity</h4>
-                            </div>
-                            <div class="speaker-links">
-                                <div class="linkBx">
-                                    <ul class="spklinks">
-                                        <li style="--i:1;"><a href="#"><i class="fab fa-facebook-f"
-                                                    aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
-                                                        class="fab fa-instagram" aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/hackcbs" target="_blank"><i
-                                                        class="fab fa-linkedin-in" aria-hidden=true></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-xl-4 col-sm-6 col-xs-6 col-md-4" style="padding: 0px;" data-aos="fade-up"
-                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
-                        <div class="speaker-card">
-                            <div class="speaker-img"> <img src="assets/img/speakers/Gagandeep.jpeg" width="100%"
-                                    loading=lazy></div>
-                            <div class="speaker-content">
-                                <h3>Gagandeep Reehal</h3>
-                                <h4>Founder, CEO & CTO <br>Minus Zero</h4>
-                            </div>
-                            <div class="speaker-links">
-                                <div class="linkBx">
-                                    <ul class="spklinks">
-                                        <li style="--i:1;"><a href="#"><i class="fab fa-facebook-f"
-                                                    aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
-                                                        class="fab fa-instagram" aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/hackcbs" target="_blank"><i
-                                                        class="fab fa-linkedin-in" aria-hidden=true></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-xl-4 col-sm-6 col-xs-6 col-md-4" style="padding: 0px;" data-aos="fade-up"
-                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
-                        <div class="speaker-card">
-                            <div class="speaker-img"> <img src="assets/img/speakers/Sambhav.jpeg" width="100%"
-                                    loading=lazy></div>
-                            <div class="speaker-content">
-                                <h3>Sambhav Jain</h3>
-                                <h4>Software Engineer<br>XENCOV</h4>
-                            </div>
-                            <div class="speaker-links">
-                                <div class="linkBx">
-                                    <ul class="spklinks">
-                                        <li style="--i:1;"><a href="#"><i class="fab fa-facebook-f"
-                                                    aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
-                                                        class="fab fa-instagram" aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/hackcbs" target="_blank"><i
-                                                        class="fab fa-linkedin-in" aria-hidden=true></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-xl-4 col-sm-6 col-xs-6 col-md-4" style="padding: 0px;" data-aos="fade-up"
-                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
-                        <div class="speaker-card">
-                            <div class="speaker-img"> <img src="assets/img/speakers/Shivay.jpeg" width="100%"
-                                    loading=lazy></div>
-                            <div class="speaker-content">
-                                <h3>Shivay Lamba</h3>
-                                <h4>Head of Product<br>Metvy</h4>
-                            </div>
-                            <div class="speaker-links">
-                                <div class="linkBx">
-                                    <ul class="spklinks">
-                                        <li style="--i:1;"><a href="#"><i class="fab fa-facebook-f"
-                                                    aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
-                                                        class="fab fa-instagram" aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/hackcbs" target="_blank"><i
-                                                        class="fab fa-linkedin-in" aria-hidden=true></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-xl-4 col-sm-6 col-xs-6 col-md-4" style="padding: 0px;" data-aos="fade-up"
-                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
-                        <div class="speaker-card">
-                            <div class="speaker-img"> <img src="assets/img/speakers/Arsh.jpeg" width="100%"
-                                    loading=lazy></div>
-                            <div class="speaker-content">
-                                <h3>Arsh Goyal</h3>
-                                <h4>SDE Intern at Samsung &<br>SWE Intern at ISRO</h4>
-                            </div>
-                            <div class="speaker-links">
-                                <div class="linkBx">
-                                    <ul class="spklinks">
-                                        <li style="--i:1;"><a href="#"><i class="fab fa-facebook-f"
-                                                    aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
-                                                        class="fab fa-instagram" aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/hackcbs" target="_blank"><i
-                                                        class="fab fa-linkedin-in" aria-hidden=true></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-xl-4 col-sm-6 col-xs-6 col-md-4" style="padding: 0px;" data-aos="fade-up"
-                        data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
-                        <div class="speaker-card">
-                            <div class="speaker-img"> <img src="assets/img/speakers/Angeline.jpeg" width="100%"
-                                    loading=lazy></div>
-                            <div class="speaker-content">
-                                <h3>Angeline Chen</h3>
-                                <h4>AWS Educate Student<br>Ambassador</h4>
-                            </div>
-                            <div class="speaker-links">
-                                <div class="linkBx">
-                                    <ul class="spklinks">
-                                        <li style="--i:1;"><a href="#"><i class="fab fa-facebook-f"
-                                                    aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
-                                                        class="fab fa-instagram" aria-hidden=true></i></a></li>
+                                        <!-- <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
+                                                        class="fab fa-instagram" aria-hidden=true></i></a></li> -->
                                         <li><a href="https://www.linkedin.com/company/hackcbs" target="_blank"><i
                                                         class="fab fa-linkedin-in" aria-hidden=true></i></a></li>
                                     </ul>
@@ -639,7 +433,7 @@
     <section id="workshops" class="pb100 pt100">
         <div class=container>
             <div class="section_title">
-                <h3 class=title data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                <h3 class=title-dark data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
                     WORKSHOPS</h3>
                 <h5>Subscribe to our <a href="https://www.youtube.com/channel/UCVvnNKhWTiFVp9dMktBv8oQ"
                         style="color: #CD0000;"><b><i class="fab fa-youtube"></i> YouTube Channel</b></a> to watch all the past
@@ -672,7 +466,8 @@
                         <div class="workshop-btn"> <button class="btn-sm btn-info" data-toggle="modal"
                                 data-target="#workshop11">Read More</button> <a
                                 href="https://www.youtube.com/watch?v=Mt0Aj0AHrXo" target="_blank"> <button
-                                    class="btn-sm btn-danger">Watch on YouTube</button> </a></div>
+                                    class="btn-sm btn-danger">Watch on <i class="fab fa-youtube"></i></button> </a>
+                                </div>
                     </div>
                     <div id="workshop11" class="modal fade" role="dialog">
                         <div class="modal-dialog">
@@ -715,7 +510,7 @@
                         <div class="workshop-btn"> <button class="btn-sm btn-info" data-toggle="modal"
                                 data-target="#workshop12">Read More</button> <a
                                 href="https://www.youtube.com/watch?v=jvDoLQ2Q-AU" target="_blank"> <button
-                                    class="btn-sm btn-danger">Watch on YouTube</button> </a></div>
+                                    class="btn-sm btn-danger">Watch on <i class="fab fa-youtube"></i></button> </a></div>
                     </div>
                     <div id="workshop12" class="modal fade" role="dialog">
                         <div class="modal-dialog">
@@ -756,7 +551,7 @@
                         <div class="workshop-btn"> <button class="btn-sm btn-info" data-toggle="modal"
                                 data-target="#workshop13">Read More</button> <a
                                 href="https://www.youtube.com/watch?v=5agjtqydoL0" target="_blank"> <button
-                                    class="btn-sm btn-danger">Watch on YouTube</button> </a></div>
+                                    class="btn-sm btn-danger">Watch on <i class="fab fa-youtube"></i></button> </a></div>
                     </div>
                     <div id="workshop13" class="modal fade" role="dialog">
                         <div class="modal-dialog">
@@ -797,7 +592,7 @@
                         <div class="workshop-btn"> <button class="btn-sm btn-info" data-toggle="modal"
                                 data-target="#workshop15">Read More</button> <a
                                 href="https://www.youtube.com/watch?v=wWkNOOZSktQ" target="_blank"> <button
-                                    class="btn-sm btn-danger">Watch on YouTube</button> </a></div>
+                                    class="btn-sm btn-danger">Watch on <i class="fab fa-youtube"></i></button> </a></div>
                     </div>
                     <div id="workshop15" class="modal fade" role="dialog">
                         <div class="modal-dialog">
@@ -845,7 +640,7 @@
                         <div class="workshop-btn"> <button class="btn-sm btn-info" data-toggle="modal"
                                 data-target="#workshop9">Read More</button> <a
                                 href="https://www.youtube.com/watch?v=6d7E_83Rzd0" target="_blank"> <button
-                                    class="btn-sm btn-danger">Watch on YouTube</button> </a></div>
+                                    class="btn-sm btn-danger">Watch on <i class="fab fa-youtube"></i></button> </a></div>
                     </div>
                     <div id="workshop9" class="modal fade" role="dialog">
                         <div class="modal-dialog">
@@ -894,7 +689,7 @@
                         <div class="workshop-btn"> <button class="btn-sm btn-info" data-toggle="modal"
                                 data-target="#workshop5">Read More</button> <a
                                 href="https://www.youtube.com/watch?v=bDrNvWz7RkQ" target="_blank"> <button
-                                    class="btn-sm btn-danger">Watch on YouTube</button> </a></div>
+                                    class="btn-sm btn-danger">Watch on <i class="fab fa-youtube"></i></button> </a></div>
                     </div>
                     <div id="workshop5" class="modal fade" role="dialog">
                         <div class="modal-dialog">
@@ -950,7 +745,7 @@
                         <div class="workshop-btn"> <button class="btn-sm btn-info" data-toggle="modal"
                                 data-target="#workshop20">Read More</button> <a
                                 href="https://www.youtube.com/watch?v=G6_6B4g1oLs" target="_blank"> <button
-                                    class="btn-sm btn-danger">Watch on YouTube</button> </a></div>
+                                    class="btn-sm btn-danger">Watch on <i class="fab fa-youtube"></i></button> </a></div>
                     </div>
                     <div id="workshop20" class="modal fade" role="dialog">
                         <div class="modal-dialog">
@@ -998,7 +793,7 @@
                         <div class="workshop-btn"> <button class="btn-sm btn-info" data-toggle="modal"
                                 data-target="#workshop3">Read More</button> <a
                                 href="https://www.youtube.com/watch?v=QtAkSy91c3c" target="_blank"> <button
-                                    class="btn-sm btn-danger">Watch on YouTube</button> </a></div>
+                                    class="btn-sm btn-danger">Watch on <i class="fab fa-youtube"></i></button> </a></div>
                     </div>
                     <div id="workshop3" class="modal fade" role="dialog">
                         <div class="modal-dialog">
@@ -1038,7 +833,7 @@
                         <div class="workshop-btn"> <button class="btn-sm btn-info" data-toggle="modal"
                                 data-target="#workshop6">Read More</button> <a
                                 href="https://www.youtube.com/watch?v=9q3ecqfosJg" target="_blank"> <button
-                                    class="btn-sm btn-danger">Watch on YouTube</button> </a></div>
+                                    class="btn-sm btn-danger">Watch on <i class="fab fa-youtube"></i></button> </a></div>
                     </div>
                     <div id="workshop6" class="modal fade" role="dialog">
                         <div class="modal-dialog">
@@ -1085,7 +880,7 @@
                         <div class="workshop-btn"> <button class="btn-sm btn-info" data-toggle="modal"
                                 data-target="#workshop1">Read More</button> <a
                                 href="https://www.youtube.com/watch?v=CI0GdVecahE" target="_blank"> <button
-                                    class="btn-sm btn-danger">Watch on YouTube</button> </a></div>
+                                    class="btn-sm btn-danger">Watch on <i class="fab fa-youtube"></i></button> </a></div>
                     </div>
                     <div id="workshop1" class="modal fade" role="dialog">
                         <div class="modal-dialog">
@@ -1140,7 +935,7 @@
                         <div class="workshop-btn"> <button class="btn-sm btn-info" data-toggle="modal"
                                 data-target="#workshop2">Read More</button> <a
                                 href="https://www.youtube.com/watch?v=MCqe8ovGAfw"> <button
-                                    class="btn-sm btn-danger">Watch on YouTube</button> </a></div>
+                                    class="btn-sm btn-danger">Watch on <i class="fab fa-youtube"></i></button> </a></div>
                     </div>
                     <div id="workshop2" class="modal fade" role="dialog">
                         <div class="modal-dialog">
@@ -1186,7 +981,7 @@
                         <div class="workshop-btn"> <button class="btn-sm btn-info" data-toggle="modal"
                                 data-target="#workshop4">Read More</button> <a target="_blank"
                                 href="https://www.youtube.com/watch?v=F6FWdnbaAAY" target="_blank"> <button
-                                    class="btn-sm btn-danger">Watch on YouTube</button> </a></div>
+                                    class="btn-sm btn-danger">Watch on <i class="fab fa-youtube"></i></button> </a></div>
                     </div>
                     <div id="workshop4" class="modal fade" role="dialog">
                         <div class="modal-dialog">
@@ -1232,7 +1027,7 @@
                         <div class="workshop-btn"> <button class="btn-sm btn-info" data-toggle="modal"
                                 data-target="#workshop10">Read More</button> <a
                                 href="https://www.youtube.com/watch?v=hBo2p1FP7T4" target="_blank"> <button
-                                    class="btn-sm btn-danger">Watch on YouTube</button> </a></div>
+                                    class="btn-sm btn-danger">Watch on <i class="fab fa-youtube"></i></button> </a></div>
                     </div>
                     <div id="workshop10" class="modal fade" role="dialog">
                         <div class="modal-dialog">
@@ -1278,7 +1073,7 @@
                         </div>
                         <div class="workshop-btn"> <button class="btn-sm btn-info disabled" data-toggle="modal"
                                 data-target="">Read More</button> <a href="https://www.youtube.com/watch?v=WsGILByI_kM"
-                                target="_blank"> <button class="btn-sm btn-danger">Watch on YouTube</button> </a></div>
+                                target="_blank"> <button class="btn-sm btn-danger">Watch on <i class="fab fa-youtube"></i></button> </a></div>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -1302,7 +1097,7 @@
                         <div class="workshop-btn"> <button class="btn-sm btn-info" data-toggle="modal"
                                 data-target="#workshop14">Read More</button> <a
                                 href="https://www.youtube.com/watch?v=FeO0CZx6BOE" target="_blank"> <button
-                                    class="btn-sm btn-danger">Watch on YouTube</button> </a></div>
+                                    class="btn-sm btn-danger">Watch on <i class="fab fa-youtube"></i></button> </a></div>
                     </div>
                     <div id="workshop14" class="modal fade" role="dialog">
                         <div class="modal-dialog">
@@ -1464,7 +1259,7 @@
                                     <div class="modal-body"> <button type="button" class="close"
                                             data-dismiss="modal">&times;</button> <br>
                                         <h5 class="modal-title">Sample Problem Statements</h5> <br>
-                                        <p><b>There are no problem statments for hackCBS 3.0. </b> <br>These are some
+                                        <p><b>There are no problem statments for hackCBS 5.0. </b> <br>These are some
                                             sample problem statements from which you can take reference. You can work on
                                             any problem statement of your choice.</p> <br>
                                     </div>
@@ -1480,6 +1275,8 @@
             </div>
         </div>
     </section>
+
+
     <section class="pb100 pt100">
         <div class=container>
             <div class="section_title">
@@ -1489,269 +1286,68 @@
             </div>
         </div>
         <div class="container">
-            <div class="pixel-card">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Get a chance to Win <span style="color:red; font-weight: 900;">Google Pixel 4A</span></h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="pixel-content">
-                            <h4>Hack with TensorFlow.js at hackCBS 3.0 and get a chance to win a Google Pixel 4A
-                                Smartphone</h4>
-                            <p>The best project made using TensorFlow.js will be awarded. If the project is made by a
-                                team then the prize will be given to each member. The Projects will be judged by
-                                <b>Jason Mayes</b> who is Senior Developer Advocate for TensorFlow.js at Google. <br>
-                                <br> To know more about this in detail, watch the session on "<b>How to win Hackathons
-                                    with JavaScript</b>" by Jason Mayes at <b>10:00 AM</b> on the <b>7th of
-                                    November</b>.</li>
-                            </p> <br> <a target="_blank" href="https://www.youtube.com/watch?v=F6FWdnbaAAY"
-                                target="_blank"> <button class="btn-sm btn-danger">Watch on YouTube</button> </a>
-                            <h4>#MadeWithTFJS</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="pixel-img"> <img src="assets/img/pixel.png" width="100%"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
             <div class="row">
-                <div class="prizes" id="accordion">
-                    <div class="col-md-4">
-                        <div class="prize-card" data-aos="zoom-in-up" data-aos-duration="1000"
-                            data-aos-anchor-placement="top-bottom"> <a data-toggle="collapse" data-parent="#accordion">
-                                <div class="prize-heading" style="background-color: #d32141">
-                                    <p>First Prize <span class="prize-icon"><i class="fas fa-award"></i></i></span></p>
-                                </div>
-                            </a>
-                            <div id="prize1" class="prize-details">
-                                <div class="prize-body">
-                                    <ul>
-                                        <li>Cash Prize : <b><i>25,000 INR</i></b>
-                                        <li>One year License Wolfarm|Alpha Pro</li>
-                                        <li>Devfolio T-Shirts/Swag</li>
-                                        <li>Framer - 12 Months Subscription</li>
-                                        <li>Coding Blocks 90% Discount Coupons</li>
-                                        <li>Clerky - Company Lifetime Package</li>
-                                        <li>Axure - RP License</li>
-                                        <li>Bugsee - $1500 Credits to team</li>
-                                        <li>Rosenfield - Free Books</li>
-                                        <li>UAcelt Free Course</li>
-                                    </ul>
-                                </div>
-                            </div>
+                <div class="col-md-4 " data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-anchor-placement="top-bottom">
+                    <div class="main">
+                        <div class="service">
+                            <div class="service-logo first-logo"> <img src="assets/img/first.png" alt="1st"></div>
+                            <h4 class="prize-heading">First Prize</h4>
+                            <p> Total Prize of Worth <b>$10,000</b> <br> Cash Prize of <b>35,000INR</b></br></p>
+                            <div class="prizes-btn" style="margin-top: 15px;"> <button class="btn-info"
+                                    data-toggle="modal" data-target="#prize1_modal" style="background: #FC5FB0;">Know
+                                    More</button></div>
                         </div>
+                        <div class="shadowOne"></div>
+                        <div class="shadowTwo"></div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="prize-card" data-aos="zoom-in-up" data-aos-duration="1000"
-                            data-aos-anchor-placement="top-bottom"> <a data-toggle="collapse" data-parent="#accordion">
-                                <div class="prize-heading" style="background-color: #5CC1DF">
-                                    <p>Second Prize <span class="prize-icon"><i class="fas fa-award"></i> <i
-                                                class="fas fa-award"></i></span></p>
-                                </div>
-                            </a>
-                            <div id="prize2" class="prize-details">
-                                <div class="prize-body">
-                                    <ul>
-                                        <li>Cash Prize : <b><i>15,000 INR</i></b>
-                                        <li>One year License Wolfarm|Alpha Pro</li>
-                                        <li>Devfolio T-Shirts/Swags</li>
-                                        <li>Framer - 12 Months Subscription</li>
-                                        <li>Coding Blocks -80% Discount Coupons</li>
-                                        <li>Clerky - Company Lifetime Package</li>
-                                        <li>Bugsee - $1000 Credits to team</li>
-                                        <li>Rosenfield - Free Books</li>
-                                        <li>UAcelt Free Course</li> <br>
-                                    </ul>
-                                </div>
-                            </div>
+                </div>
+                <div class="col-md-4 " data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-anchor-placement="top-bottom">
+                    <div class="main">
+                        <div class="service">
+                            <div class="service-logo second-logo"> <img src="assets/img/second.png" alt="2nd"></div>
+                            <h4 class="prize-heading">Second Prize</h4>
+                            <p> Total Prize of Worth <b>$5,500</b> <br> Cash Prize of <b>25,000INR</b></br></p>
+                            <div class="prizes-btn" style="margin-top: 15px;"> <button class="btn-info"
+                                    data-toggle="modal" data-target="#prize2_modal" style="background: #FC5FB0;">Know
+                                    More</button></div>
                         </div>
+                        <div class="shadowOne"></div>
+                        <div class="shadowTwo"></div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="prize-card" data-aos="zoom-in-up" data-aos-duration="1000"
-                            data-aos-anchor-placement="top-bottom"> <a data-toggle="collapse" data-parent="#accordion">
-                                <div class="prize-heading" style="background-color: #5DB85C">
-                                    <p>Third Prize <span class="prize-icon"><i class="fas fa-award"></i> <i
-                                                class="fas fa-award"></i> <i class="fas fa-award"></i></span></p>
-                                </div>
-                            </a>
-                            <div id="prize3" class="prize-details">
-                                <div class="prize-body">
-                                    <ul>
-                                        <li>Cash Prize : <b><i>10,000 INR</i></b></li>
-                                        <li>One year License Wolfarm|Alpha Pro</li>
-                                        <li>Devfolio T-Shirts/Swags</li>
-                                        <li>Coding Blocks -70% Discount Coupons</li>
-                                        <li>Clerky - Company Lifetime Package</li>
-                                        <li>Axure - RP License</li>
-                                        <li>Bugsee - $500 Credits to team</li>
-                                        <li>Rosenfield - Free Books</li>
-                                        <li>UAcelt Free Course</li> <br>
-                                    </ul>
-                                </div>
-                            </div>
+                </div>
+                <div class="col-md-4 order-md-12" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-anchor-placement="top-bottom">
+                    <div class="main">
+                        <div class="service">
+                            <div class="service-logo third-logo"> <img src="assets/img/third.png" alt="3rd"></div>
+                            <h4 class="prize-heading">Third Prize</h4>
+                            <p> Total Prize of Worth <b>$5,000</b> <br> Cash Prize of <b>15,000INR</b></br></p>
+                            <div class="prizes-btn" style="margin-top: 15px;"> <button class="btn-info"
+                                    data-toggle="modal" data-target="#prize3_modal" style="background: #FC5FB0;">Know
+                                    More</button></div>
                         </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="prize-card" data-aos="fade-up" data-aos-duration="1000"
-                            data-aos-anchor-placement="top-bottom"> <a data-toggle="collapse" data-parent="#accordion">
-                                <div class="prize-heading" style="background-color: rgb(20, 27, 65)">
-                                    <center>
-                                        <p>FOR ALL PARTICIPANTS</p>
-                                    </center>
-                                </div>
-                            </a>
-                            <div id="prize3" class="prize-details">
-                                <div class="prize-body">
-                                    <div class="container">
-                                        <div class="col-md-6">
-                                            <ul>
-                                                <li>Certificate of Paticipation</li>
-                                                <li>30 Days License Wolfarm|Alpha Pro</li>
-                                                <li>repl.it 3 Months Hackerplan</li>
-                                                <li>₹300 Coupouns of geeksforgeeks.org</li>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <ul>
-                                                <li>Coding Blocks 55% Discount Coupons</li>
-                                                <li>UAcelt 10% Discount Coupons</li>
-                                                <li>DigitalOcean Cloud Credits $100</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="prize-card" data-aos="fade-up" data-aos-duration="1000"
-                                data-aos-anchor-placement="top-bottom"> <a data-toggle="collapse"
-                                    data-parent="#accordion">
-                                    <div class="prize-heading" style="background-color: #F0AD4E">
-                                        <center>
-                                            <p>Ethereum-Matic</p>
-                                        </center>
-                                    </div>
-                                </a>
-                                <div id="prize3" class="prize-details">
-                                    <div class="prize-body">
-                                        <p>Matic will be giving away a cash prize for the best hack built on top of
-                                            Ethereum of <b>INR 10,000</b> during the hackathon. <br>For teams that
-                                            integrate Matic in their hacks as well the prize money will be higher of
-                                            <b>INR 15,000</b> along with eligibility for internship/full-time role
-                                            interviews and a chance to land seed funding of upto <b>$5000</b></p>
-                                        <p>For more details <a
-                                                href="https://paper.dropbox.com/doc/FToXnL0x0THdKv7C3PaT9"
-                                                target="_blank" style="cursor: pointer;"> click here </a></p>
-                                        <center> <img src="assets/img/sponsors/matic-min.png" width="30%"></center>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="prize-card" data-aos="fade-up" data-aos-duration="1200"
-                                data-aos-anchor-placement="top-bottom"> <a data-toggle="collapse"
-                                    data-parent="#accordion">
-                                    <div class="prize-heading" style="background-color: #F0AD4E">
-                                        <center>
-                                            <p>EchoAR/PORTIS</p>
-                                        </center>
-                                    </div>
-                                </a>
-                                <div id="prize3" class="prize-details">
-                                    <div class="prize-body">
-                                        <p>Winners MUST use the echoAR platform as part of their project to be eligible
-                                            for a reward.</p>
-                                        <p>Prize: <b>$50</b> Amazon gift card</p>
-                                        <center> <img src="assets/img/sponsors/echoAR-min.png" width="30%"></center>
-                                        <p> <b>200 USD</b> Prize (in crypto) for best Dapp built on Portis</p>
-                                        <p>For more details <a
-                                                href="https://www.notion.so/Portis-by-Shapeshift-Devfolio-Hackathon-Season-Bounty-8f9f769a80ae47cf8d9ae03154f06aff"
-                                                target="_blank" style="cursor: pointer;"> click here </a></p>
-                                        <center> <img src="assets/img/sponsors/portis-min.png" width="30%"></center>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="prize-card" data-aos="fade-up" data-aos-duration="1400"
-                                data-aos-anchor-placement="top-bottom"> <a data-toggle="collapse"
-                                    data-parent="#accordion">
-                                    <div class="prize-heading" style="background-color: #F0AD4E">
-                                        <center>
-                                            <p>Tezos</p>
-                                        </center>
-                                    </div>
-                                </a>
-                                <div id="prize3" class="prize-details">
-                                    <div class="prize-body">
-                                        <p>Build your hack using Tezos and get a chance to win these exciting prizes<li
-                                                type="none">- 10000 INR for best Dapp built on Tezos</li>
-                                            <li type="none">- 5000 INR for Runners-up</li>
-                                            <li type="none">- Continuity Grant opportunity for exceptional builders</li>
-                                        </p> <br>
-                                        <p>For more details <a
-                                                href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff"
-                                                target="_blank" style="cursor: pointer;"> click here </a></p> <br>
-                                        <center></center>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="prize-card" data-aos="fade-up" data-aos-duration="1200"
-                                data-aos-anchor-placement="top-bottom"> <a data-toggle="collapse"
-                                    data-parent="#accordion">
-                                    <div class="prize-heading" style="background-color: #F0AD4E">
-                                        <center>
-                                            <p>MLH - 1</p>
-                                        </center>
-                                    </div>
-                                </a>
-                                <div id="prize3" class="prize-details">
-                                    <div class="prize-body">
-                                        <p><b>Best Hardware Hack Sponsored by Digi-Key</b> <br></p>
-                                        <p>Using your preferred hardware or hardware emulator, build a hack for your
-                                            chance to win a Grove Beginner Kit, with Arduino Uno R3 included. 1 prize
-                                            for each winning team member with 2 winning teams per event!</p>
-                                        <center> <img src="assets/img/sponsors/mlh-min.png" width="25%"></center>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="prize-card" data-aos="fade-up" data-aos-duration="1200"
-                                data-aos-anchor-placement="top-bottom"> <a data-toggle="collapse"
-                                    data-parent="#accordion">
-                                    <div class="prize-heading" style="background-color: #F0AD4E">
-                                        <center>
-                                            <p>MLH - 2</p>
-                                        </center>
-                                    </div>
-                                </a>
-                                <div id="prize3" class="prize-details">
-                                    <div class="prize-body">
-                                        <p><b>Best use of DataStax Astra</b></p>
-                                        <p>Leverage DataStax Asta's powerful cloud database service in your project this
-                                            weekend for a chance to win YubiKey Security Keys. Getting started in
-                                            minutes with 10 GB free, no credit card needed.</p> <br>
-                                        <center> <img src="assets/img/sponsors/mlh-min.png" width="25%"></center>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="shadowOne"></div>
+                        <div class="shadowTwo"></div>
                     </div>
                 </div>
             </div>
-        </div>
+            <center>
+                <div class="row">
+                    <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-anchor-placement="top-bottom"> <a href="https://hackcbs4.hackerearth.com/#prizes"
+                            class="disabled"> <button class="btn-success prize-know-btn" style="margin-top: 70px;">Know More about
+                                Prizes</button> </a></div>
+                </div>
+            </center>
         </div>
     </section>
+
+
+
+
+
     
     <section class="pb100 pt100" id=schedule>
         <div class=container>
@@ -2035,7 +1631,7 @@
                 <div class="row">
                     <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000"
                         data-aos-anchor-placement="top-bottom"> <a href="mailto:sponsorships@hackcbs.tech"
-                            class="disabled"> <button class="btn-success">SPONSOR US</button> </a></div>
+                            class="disabled"> <button class="btn-success prize-know-btn">SPONSOR US</button> </a></div>
                 </div>
             </center>
         </div>
@@ -2051,30 +1647,47 @@
             <div class="row">
                 <center>
                     <div class="col-md-4">
-                        <div class="team-box"> <img src="assets/img/team/harit.jpg" width="90%">
+                        <div class="team-box">
+                            <img src="assets/img/team/RISHABH.jpeg" width="90%">
                             <h2>Rishabh Sharma</h2>
                             <h5>Lead-Organizer</h5>
-                            <h6><a href="https://www.linkedin.com/in/sainiharit"><i class="fab fa-linkedin-square"
-                                        aria-hidden=true></i></a> <a href="https://www.twitter.com/sainiharit8"><i
-                                        class="fab fa-twitter-square" aria-hidden=true></i></a></h6>
+                            <h6>
+                               <a href="https://www.linkedin.com/in/sainiharit">
+                                 <i class="fab fa-linkedin" aria-hidden=true></i>
+                               </a> 
+                               <a href="https://www.twitter.com/sainiharit8">
+                                 <i class="fab fa-twitter-square" aria-hidden=true></i>
+                               </a>
+                            </h6>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="team-box"> <img src="assets/img/team/Akshay.jpeg" width="90%">
+                        <div class="team-box">
+                             <img src="assets/img/team/shyaamal.jpeg" width="90%">
                             <h2>Shyaamal Tripathi</h2>
                             <h5>Lead-Organizer</h5>
-                            <h6><a href="https://www.linkedin.com/in/akshaysharma274/"><i class="fab fa-linkedin-square"
-                                        aria-hidden=true></i></a> <a href="https://www.twitter.com/AkshayS87180583"><i
-                                        class="fab fa-twitter-square" aria-hidden=true></i></a></h6>
+                            <h6>
+                            <a href="https://www.linkedin.com/in/akshaysharma274/">
+                                <i class="fab fa-linkedin" aria-hidden=true></i>
+                            </a> 
+                            <a href="https://www.twitter.com/AkshayS87180583">
+                                <i class="fab fa-twitter-square" aria-hidden=true></i>
+                            </a>
+                        </h6>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="team-box"> <img src="assets/img/team/sajal.jpg" width="90%">
                             <h2>Mukul Bisht</h2>
                             <h5>Coordinator</h5>
-                            <h6><a href="https://www.linkedin.com/in/sajalban5al"><i class="fab fa-linkedin-square"
-                                        aria-hidden=true></i></a> <a href="https://www.twitter.com/SajalBan5al"><i
-                                        class="fab fa-twitter-square" aria-hidden=true></i></a></h6>
+                            <h6>
+                            <a href="https://www.linkedin.com/in/sajalban5al">
+                                <i class="fab fa-linkedin" aria-hidden=true></i>
+                            </a> 
+                            <a href="https://www.twitter.com/SajalBan5al">
+                                <i class="fab fa-twitter-square" aria-hidden=true></i>
+                            </a>
+                        </h6>
                         </div>
                     </div>
                 </center>
@@ -2101,7 +1714,7 @@
                             their thoughts into reality, through technology.</p>
                     </div>
                 </div>
-                <div class="accordion-item"> <a> What is the last date of registration for hackCBS 3.0?</a>
+                <div class="accordion-item"> <a> What is the last date of registration for hackCBS 5.0?</a>
                     <div class="content">
                         <p>You can register till 7:00 PM on the 6th of November. If you are facing any issue in
                             registering, you can directly <a href="#contact" class="lgx-scroll">contact us</a>.</p>
@@ -2150,9 +1763,9 @@
                             beforehand.</p>
                     </div>
                 </div>
-                <div class="accordion-item"> <a>What are the problem statements for hackCBS 3.0?</a>
+                <div class="accordion-item"> <a>What are the problem statements for hackCBS 5.0?</a>
                     <div class="content">
-                        <p>There are no problem statments for hackCBS 3.0. You can work on any problem statement of your
+                        <p>There are no problem statments for hackCBS 5.0. You can work on any problem statement of your
                             choice. If you didn't know what are problem statements then for your reference, We have
                             added some sample problem statements. You can check them <a data-toggle="modal"
                                 data-target="#ps">here.</a></p>
@@ -2184,7 +1797,7 @@
             <div class="row">
                 <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000"
                     data-aos-anchor-placement="top-bottom"> <a href="Code-of-Conduct.pdf" target="_blank"> <button
-                            class="btn-danger">CODE OF CONDUCT</button> </a></div>
+                            class="btn-danger prize-know-btn">CODE OF CONDUCT</button> </a></div>
             </div>
         </center>
     </section>
@@ -2230,16 +1843,15 @@
                         <div class=lgx-footer-area>
                             <div class="col-md-3" style="padding: 0px;">
                                 <div class=lgx-footer-single style="text-align: center;"> <a href="#home"
-                                        class=lgx-scroll> <img src="assets/img/logo-white.png" width="200px" alt=Logo
+                                        class=lgx-scroll> <img src="assets/img/hackCBS 5 logo.png" width="200px" alt=Logo
                                             loading=lazy> </a></div>
                             </div>
                             <div class="col-md-2">
                                 <div class=lgx-footer-single>
                                     <div class=lgx-footer-single>
-                                        <h3 class="footer-title">Archives</h3> <a href="#home"
-                                            class="lgx-scroll resource_color">Home</a> <br>
+                                        <h3 class="footer-title">Archives</h3>
                                              <a href="https://v2.hackcbs.tech/" class="lgx-scroll resource_color">HackCBS 2.0</a> <br> 
-                                             <a href="#" class="lgx-scroll resource_color">HackCBS 3.0</a> <br>
+                                             <a href="#" class="lgx-scroll resource_color">HackCBS 5.0</a> <br>
                                               <a href="https://hackcbs.tech/" class="lgx-scroll resource_color">HackCBS 4.0</a> <br>
                                     </div>
                                 </div>
@@ -2249,18 +1861,17 @@
                                     <h3 class="footer-title">Resources</h3> 
                                     <a href="Code-of-Conduct.pdf" target="_blank" class="resource_color">Code of Conduct</a> <br>
                                     <!-- <h3 class="footer-title">Archives</h3>  -->
-                                    <a href="https://v2.hackcbs.tech"target="_blank" class="resource_color">sponsorship brochure</a>
+                                    <a href="https://v2.hackcbs.tech"target="_blank" class="resource_color">Sponsorship brochure</a>
                                 </div>
                             </div>
                             <div class="col-md-2">
                                 <div class=lgx-footer-single>
-                                    <h3 class="footer-title">Community</h3> <a
-                                        href="https://t.me/joinchat/LlOuzVQ1_GSIbQ8oodUOwQ" target="_blank"
-                                        class="resource_color"><i class="fab fa-telegram" aria-hidden=true></i>
-                                        Telegram</a> <br> <a href="http://bit.ly/hackcbs-discord" target="_blank"
-                                        class="resource_color"><i class="fab fa-discord" aria-hidden=true></i>
-                                        Discord</a> <br> <a href="https://github.com/hackcbs" target="_blank"
-                                        class="resource_color"><i class="fab fa-github" aria-hidden=true></i> Github</a>
+                                    <h3 class="footer-title">Community</h3> 
+                                    <a href="https://t.me/joinchat/LlOuzVQ1_GSIbQ8oodUOwQ" target="_blank" class="resource_color"><i class="fab fa-telegram" aria-hidden=true></i>Telegram</a> 
+                                    <br> 
+                                    <a href="http://bit.ly/hackcbs-discord" target="_blank" class="resource_color"><i class="fab fa-discord" aria-hidden=true></i>Discord</a> 
+                                    <br> 
+                                    <a href="https://github.com/hackcbs" target="_blank" class="resource_color"><i class="fab fa-github" aria-hidden=true></i> Github</a>
                                 </div>
                             </div>
                             <div class="col-md-3" style="padding: 0px;">
@@ -2268,16 +1879,11 @@
                                     <h3 class=footer-title>Social Connection</h3>
                                     <p class=text>Follow us for latest updates:</p>
                                     <ul class="list-inline lgx-social-footer">
-                                        <li><a href="https://www.facebook.com/hackcbs/" target="_blank"><i
-                                                    class="fab fa-facebook-f" aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.twitter.com/hackcbs/" target="_blank"><i
-                                                    class="fab fa-twitter" aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i
-                                                    class="fab fa-instagram" aria-hidden=true></i></a></li>
-                                        <li><a href="https://www.linkedin.com/company/hackcbs" target="_blank"><i
-                                                    class="fab fa-linkedin-in" aria-hidden=true></i></a></li>
-                                        <li><a href="http://bit.ly/hackCBS-YouTube" target="_blank"><i
-                                                    class="fab fa-youtube" aria-hidden=true></i></a></li>
+                                        <li><a href="https://www.instagram.com/hackcbs/" target="_blank"><i class="fab fa-instagram" aria-hidden=true></i></a></li>
+                                        <li><a href="https://www.facebook.com/hackcbs/" target="_blank"><i class="fab fa-facebook-f" aria-hidden=true></i></a></li>
+                                        <li><a href="https://www.twitter.com/hackcbs/" target="_blank"><i class="fab fa-twitter" aria-hidden=true></i></a></li>
+                                        <li><a href="https://www.linkedin.com/company/hackcbs" target="_blank"><i class="fab fa-linkedin-in" aria-hidden=true></i></a></li>
+                                        <li><a href="http://bit.ly/hackCBS-YouTube" target="_blank"><i class="fab fa-youtube" aria-hidden=true></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -2296,6 +1902,13 @@
         </div>
     </footer>
     </div>
+
+
+        <!-- Back to top button -->
+    <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+       <i class="fas fa-arrow-up"></i>
+    </button>
+
     <script src="assets/js/vendor/jquery-3.2.1.min.js"></script>
     <script src="assets/js/countdowntime/moment.min.js"></script>
     <script src="assets/js/countdowntime/moment-timezone.min.js"></script>
@@ -2320,6 +1933,7 @@
     <script src="assets/js/Scramble.js"></script>
     <script src="assets/js/ProgressBar.js"></script>
     <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+    <script src="assets/libs/scroll.js"></script>
 </body>
 
 </html>

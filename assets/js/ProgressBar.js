@@ -1,3 +1,18 @@
+
+$(".progress").hide();
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    
+    //  //>=, not <=
+    if (scroll >= 50) {
+        $(".progress").show();
+    }
+    if (scroll < 50) {
+        $(".progress").hide();
+    }
+}); 
+
 $(document).on("scroll", function(){
     var pixels = $(document).scrollTop();
     var pageHeight = $(document).height() - $(window).height();
