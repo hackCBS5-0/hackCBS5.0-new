@@ -5921,7 +5921,7 @@ button:hover:after {
   animation-timing-function: linear;
 }
 .lgx-header .lgx-navbar .lgx-nav li a {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   line-height: 2.4000000000000004rem;
   font-weight: 400;
   text-transform: uppercase;
@@ -6000,6 +6000,13 @@ button:hover:after {
   justify-content: flex-end;
   margin-right: 100px;
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .lgx-header .lgx-navbar .lgx-collapse {
+    margin-right: 0;
+  }
+}
+  
 .lgx-header .lgx-nav-right {
   overflow: hidden;
   margin-top: 15px;
@@ -6281,7 +6288,7 @@ button:hover:after {
   }
   .lgx-header .lgx-navbar .lgx-nav li a,
   .lgx-header .menu-onscroll .lgx-navbar .lgx-nav li a {
-    font-size: 12px;
+    font-size: 10px;
     padding: 30px 5px;
   }
   .lgx-header .lgx-nav-right,

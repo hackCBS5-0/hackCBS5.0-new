@@ -20,7 +20,16 @@
 
 @media screen and (max-width: 768px) {
   .progress {
-    top: 94px;
+    top: 92px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+  .lgx-header .menu-onscroll .lgx-navbar .lgx-logo a img{
+    width: 104px;
+  }
+  .progress {
+    top: 94px !important;
   }
 }
 
@@ -1046,7 +1055,7 @@ a {
 }
 @media screen and (max-width: 1024px) {
   .lgx-header .lgx-navbar .lgx-nav li a {
-    font-size: 1.2rem;
+    font-size:70%;
   }
   .home-button1 {
     float: none;
