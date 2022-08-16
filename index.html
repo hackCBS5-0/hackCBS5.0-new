@@ -24,7 +24,10 @@
     <link rel="stylesheet" href="assets/css/prizes.css" media=all>
     <link rel="stylesheet" href="assets/css/normalize.min.css">
     <link rel="stylesheet" href="assets/libs/aos/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="assets/js/glimpses.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120130047-4"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
@@ -201,75 +204,40 @@
                                 hack</span>CBS 3.0</h3>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="slider highlighter">
-                        <div class="mySlides">
-                            <div class="numbertext">1 / 20</div> <img src="assets/img/glimpses/1.jpg"
-                                style="width:100%">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="assets/img/glimpses/1.jpg" alt="hackCBS glimpse 1">
                         </div>
-                        <div class="mySlides">
-                            <div class="numbertext">2 / 20</div> <img src="assets/img/glimpses/2.jpg"
-                                style="width:100%">
+                        <div class="swiper-slide">
+                            <img src="assets/img/glimpses/2.jpg" alt="hackCBS glimpse 2">
                         </div>
-                        <div class="mySlides">
-                            <div class="numbertext">3 / 20</div> <img src="assets/img/glimpses/3.jpg"
-                                style="width:100%">
+                        <div class="swiper-slide">
+                            <img src="assets/img/glimpses/3.jpg" alt="hackCBS glimpse 3">
                         </div>
-                        <div class="mySlides">
-                            <div class="numbertext">4 / 20</div> <img src="assets/img/glimpses/4.jpg"
-                                style="width:100%">
+                        <div class="swiper-slide">
+                            <img src="assets/img/glimpses/4.jpg" alt="hackCBS glimpse 4">
                         </div>
-                        <div class="mySlides">
-                            <div class="numbertext">5 / 20</div> <img src="assets/img/glimpses/5.jpg"
-                                style="width:100%">
+                        <div class="swiper-slide">
+                            <img src="assets/img/glimpses/5.jpg" alt="hackCBS glimpse 5">
                         </div>
-                        <div class="mySlides">
-                            <div class="numbertext">6 / 20</div> <img src="assets/img/glimpses/6.jpg"
-                                style="width:100%">
+                        <div class="swiper-slide">
+                            <img src="assets/img/glimpses/6.jpg" alt="hackCBS glimpse 6">
                         </div>
-                        <div class="mySlides">
-                            <div class="numbertext">7 / 20</div> <img src="assets/img/glimpses/7.jpg"
-                                style="width:100%">
-                        </div>
-                        <div class="mySlides">
-                            <div class="numbertext">8 / 20</div> <img src="assets/img/glimpses/8.jpg"
-                                style="width:100%">
-                        </div>
-                        <div class="mySlides">
-                            <div class="numbertext">9 / 20</div> <img src="assets/img/glimpses/9.jpg"
-                                style="width:100%">
-                        </div>
-                        <div class="mySlides">
-                            <div class="numbertext">10 / 20</div> <img src="assets/img/glimpses/10.jpg"
-                                style="width:100%">
-                        </div>
-                        <div class="mySlides">
-                            <div class="numbertext">11 / 20</div> <img src="assets/img/glimpses/11.jpg"
-                                style="width:100%">
-                        </div>
-                        <div class="mySlides">
-                            <div class="numbertext">12 / 20</div> <img src="assets/img/glimpses/12.jpg"
-                                style="width:100%">
-                        </div>
-                        <div class="mySlides">
-                            <div class="numbertext">13 / 20</div> <img src="assets/img/glimpses/13.jpg"
-                                style="width:100%">
-                        </div>
-                        <div class="mySlides">
-                            <div class="numbertext">14 / 20</div> <img src="assets/img/glimpses/14.jpg"
-                                style="width:100%">
-                        </div>
-                        <div class="mySlides">
-                            <div class="numbertext">15 / 20</div> <img src="assets/img/glimpses/15.jpg"
-                                style="width:100%">
-                        </div>
-                        <div class="mySlides">
-                            <div class="numbertext">16 / 20</div> <img src="assets/img/glimpses/16.jpg"
-                                style="width:100%">
-                        </div> <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next"
-                            onclick="plusSlides(1)">&#10095;</a>
                     </div>
-                </div> <br>
+                    <!-- Pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- Navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- Scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
             </div>
         </div>
     </section>
