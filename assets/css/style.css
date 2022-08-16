@@ -1,6 +1,10 @@
 @import url('/font.css');
 @import url('../libs/fontawesome/css/font-awesome.min.css');
 
+html{
+  scroll-behavior: smooth;
+}
+
 /************************Progress Bar*************************/
 
 .progress { 
@@ -158,6 +162,11 @@
   position: relative;
   z-index: 0;
   border-radius: 10px;
+}
+
+.banner-button-style > a{
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .banner-button-style:before{
