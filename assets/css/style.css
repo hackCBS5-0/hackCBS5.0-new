@@ -171,13 +171,14 @@ html{
 
 .banner-button-style:before{
   content: '';
-  background: linear-gradient(45deg, #ff5cdc, #ff59db, #ea00ff, #9d06e2, #6f0bda, #8e11e2, #ea00ff, #ff43d6, #ff87e5);
+  /* background: linear-gradient(45deg, #ff5cdc, #ff59db, #ea00ff, #9d06e2, #6f0bda, #8e11e2, #ea00ff, #ff43d6, #ff87e5); */
+  background: linear-gradient(260deg, #ff4ed9, #ff2cd1, #c123cf, #a61be5, #8c21ff, #a827ff, #e43cf3, #ff3fd5, #ff48d7);
   position: absolute;
   top: -2px;
   left:-2px;
   background-size: 400%;
   z-index: -1;
-  filter: blur(8px);
+  filter: blur(5px);
   width: calc(100% + 6px);
   height: calc(100% + 6px);
   animation: glowing 20s linear infinite;
@@ -472,6 +473,53 @@ a {
   font-family: Raleway, sans-serif;
   font-weight: 1000;
 }
+/** Glimpses **/
+#glimpses .pb100 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.swiper {
+  height: 640px;
+  width: 100%;
+}
+.swiper .swiper-pagination-bullet {
+  width: 15px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 5px;
+  background: #fff;
+  opacity: 1;
+}
+.swiper .swiper-pagination-bullet-active {
+  background: #B492FF;
+}
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+  color: #fff;
+}
+.swiper .swiper-slide {
+  transform: scale(1.2);
+}
+.swiper .swiper-slide.swiper-slide-active,
+.swiper .swiper-slide.swiper-slide-active img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.swiper .swiper-slide:not(.swiper-slide-active) {
+  opacity: 0.4;
+  transition: .4s ease all;
+  transform: scale(.7);
+}
+.swiper .swiper-scrollbar {
+  display: none;
+}
+
 #speakers {
   background-color: #f1f3f7;
 }
@@ -679,6 +727,14 @@ a {
   background-position: center center;
   background-size: 100% 80%;
 }
+.sample-problem-btn{
+  background-color: #845fd6;
+}
+
+.sample-problem-btn:hover{
+  background-color: #9b72f3;
+}
+
 .counter-section {
   background: #fff;
   overflow: hidden;
@@ -864,6 +920,31 @@ a {
 #whatsapp:hover {
   background-color: #555;
 }
+
+@media screen and (max-width: 1240px) {
+  .swiper {
+    height: 520px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .swiper {
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .swiper {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .swiper {
+    height: 360px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .title-sponsor img {
     width: 50%;
@@ -889,6 +970,9 @@ a {
   .sponsors-logo {
     padding: 8px 5px;
     margin: 8px;
+  }
+  .swiper {
+    height: 320px;
   }
   .sponsor-heading {
     font-size: 20px;
@@ -1474,13 +1558,16 @@ lord-icon {
   .home_hackCBS>h1>span{
       font-size: 17vw;
   }
+  .swiper {
+    height: 380px;
+  }
 }
 
 @media screen and (max-width: 545px) {
   .home_date-container p {
     font-size: 2.7rem;
     margin-top: 15rem;
-}
+  }
   .home_hackCBS .text{
       font-size: 7vw;
       padding: 0;
@@ -1508,6 +1595,9 @@ lord-icon {
   .button-discord{
     font-size: 2.5rem;
   }
+  .swiper {
+    height: 320px;
+  }
 }
 
 @media screen and (max-width: 476px) {
@@ -1522,7 +1612,10 @@ lord-icon {
 
   .home_date-container .fa-calendar{
     font-size: 5vw;
-}
+  }
+  .swiper {
+    height: 280px;
+  }
 }
 
 @media screen and (max-width:380px){
@@ -1645,7 +1738,7 @@ lord-icon {
   bottom: 20px;
   right: 20px;
   display: none;
-  padding: 12px 20px;
+  padding: 12px 18px;
   color: white;
   border-radius: 50%;
   background:linear-gradient(65.7deg, #FC5FD9 9.76%, #A481EF 40.43%, #8D5DF5 87.38%);
