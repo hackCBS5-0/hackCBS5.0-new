@@ -15,6 +15,9 @@ window.addEventListener('load', function() {
             },
             watchSlidesProgress: true,
             centeredSlides: true,
+            autoplay: {
+                delay: 3000
+            }
         });
     }
     else {
@@ -33,6 +36,9 @@ window.addEventListener('load', function() {
             },
             watchSlidesProgress: true,
             centeredSlides: true,
+            autoplay: {
+                delay: 3000
+            }
         });
     }
 });
