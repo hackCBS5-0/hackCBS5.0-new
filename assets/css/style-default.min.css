@@ -11018,6 +11018,7 @@ blockquote.lgx-testi-single:before {
   /* display: flex;
   overflow: hidden;
   padding: 6.8rem 0; */
+  font-family: sans-serif;
   display: flex;
   justify-content: space-between;
   padding: 20px 0px 20px;
