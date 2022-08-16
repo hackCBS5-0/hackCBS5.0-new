@@ -160,6 +160,11 @@
   border-radius: 10px;
 }
 
+.banner-button-style > a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 .banner-button-style:before{
   content: '';
   background: linear-gradient(45deg, #ff5cdc, #ff59db, #ea00ff, #9d06e2, #6f0bda, #8e11e2, #ea00ff, #ff43d6, #ff87e5);
