@@ -162,13 +162,14 @@
 
 .banner-button-style:before{
   content: '';
-  background: linear-gradient(45deg, #ff5cdc, #ff59db, #ea00ff, #9d06e2, #6f0bda, #8e11e2, #ea00ff, #ff43d6, #ff87e5);
+  /* background: linear-gradient(45deg, #ff5cdc, #ff59db, #ea00ff, #9d06e2, #6f0bda, #8e11e2, #ea00ff, #ff43d6, #ff87e5); */
+  background: linear-gradient(260deg, #ff4ed9, #ff2cd1, #c123cf, #a61be5, #8c21ff, #a827ff, #e43cf3, #ff3fd5, #ff48d7);
   position: absolute;
   top: -2px;
   left:-2px;
   background-size: 400%;
   z-index: -1;
-  filter: blur(8px);
+  filter: blur(5px);
   width: calc(100% + 6px);
   height: calc(100% + 6px);
   animation: glowing 20s linear infinite;
@@ -670,6 +671,14 @@ a {
   background-position: center center;
   background-size: 100% 80%;
 }
+.sample-problem-btn{
+  background-color: #845fd6;
+}
+
+.sample-problem-btn:hover{
+  background-color: #9b72f3;
+}
+
 .counter-section {
   background: #fff;
   overflow: hidden;
