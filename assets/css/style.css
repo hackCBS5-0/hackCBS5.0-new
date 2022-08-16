@@ -1,6 +1,10 @@
 @import url('/font.css');
 @import url('../libs/fontawesome/css/font-awesome.min.css');
 
+html{
+  scroll-behavior: smooth;
+}
+
 /************************Progress Bar*************************/
 
 .progress { 
