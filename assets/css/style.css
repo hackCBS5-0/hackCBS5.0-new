@@ -393,7 +393,7 @@ a {
   display: block;
 }
 .resource_color {
-  color: beige;
+  color: #eee;
 }
 .profile_height {
   height: 360px !important;
