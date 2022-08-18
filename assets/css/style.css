@@ -42,7 +42,7 @@ html{
 .home_container {
   /* width: 100vw; */
   height: 100vh;
-  background: rgba(31, 38, 49, 0.92);
+  background: rgba(31, 38, 49, 0.64);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,7 +51,7 @@ html{
 }
 
 .banner-parallax{
-  background-image: url("../img/banner/dark-bg-img.jpg");
+  background-image: url("../img/banner/9.jpg");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
