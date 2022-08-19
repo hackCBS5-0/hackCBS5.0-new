@@ -1546,6 +1546,16 @@ lord-icon {
   .home_date-container .fa-calendar{
       font-size: 4vw;
   }
+  .logo_img img{
+    width: 20%;
+  }
+  .logo_img1 img{
+    width: 20%;
+  }
+
+  .spklinks li a {
+    font-size: 18px !important;
+}
 }
 
 @media screen and (max-width:624px) {
@@ -1616,6 +1626,13 @@ lord-icon {
   .swiper {
     height: 280px;
   }
+}
+
+@media screen and (max-width:427px) {
+  .logo_img img,
+  .logo_img1 img {
+    width: 38%;
+}
 }
 
 @media screen and (max-width:380px){
@@ -1744,4 +1761,5 @@ lord-icon {
   background:linear-gradient(65.7deg, #FC5FD9 9.76%, #A481EF 40.43%, #8D5DF5 87.38%);
   font-size: 20px;
 }
+
 
