@@ -1573,7 +1573,7 @@ lord-icon {
   .home_hackCBS>h1 {
       font-size: 15vw;
       line-height: 110px;
-      margin-top: -20vh;
+      margin-top: -5vh;
       margin-bottom: 2vh;
   }
   .home_hackCBS>h1>span{
@@ -1582,6 +1582,38 @@ lord-icon {
   .home_hackCBS .text{
     margin-top: -34px;  
   }
+  .home_date-container p {
+    font-size: 2.7rem;
+    margin-top: 20rem;
+  }
+  .home_hackCBS .text{
+      font-size: 7vw;
+      padding: 0;
+      margin: -2rem auto 0 auto;
+      padding-left: auto;
+  }
+  .home_button-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: initial;
+    margin-bottom: 12rem;
+  }
+  .home_container{
+    background: rgba(31, 38, 49, 0.64);
+  }
+  .banner-parallax{
+    background-image: url("../img/banner/banner-mobile.jpg");
+  }
+
+  .button-register{
+      margin-right: 0;
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+  }
+  .button-discord{
+    font-size: 2.5rem;
+  }
+
   .swiper {
     height: 380px;
   }
