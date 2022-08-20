@@ -493,6 +493,11 @@ a {
   background: #fff;
   opacity: 1;
 }
+
+.swiper-pagination{
+  bottom: 0px !important;
+}
+
 .swiper .swiper-pagination-bullet-active {
   background: #B492FF;
 }
