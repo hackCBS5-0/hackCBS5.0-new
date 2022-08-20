@@ -1638,6 +1638,13 @@ lord-icon {
   .home_date-container .fa-calendar{
     font-size: 5vw;
   }
+
+  .lgx-footer-area{
+    padding-bottom: 0px !important;
+  }
+  .lgx-footer-single{
+    margin-bottom: 0;
+  }
   .swiper {
     height: 280px;
   }
