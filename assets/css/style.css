@@ -119,6 +119,9 @@ html{
   font-size: 2.5vw;
 }
 
+.lgx-scroll > img, #mlh-trust-badge > img{
+  max-width: 80%;
+}
 
 .button-register {
   display: flex;
@@ -1576,7 +1579,7 @@ lord-icon {
 @media screen and (max-width: 545px) {
   .home_date-container p {
     font-size: 2.7rem;
-    margin-top: 15rem;
+    margin-top: 18rem;
   }
   .home_hackCBS .text{
       font-size: 7vw;
@@ -1599,7 +1602,7 @@ lord-icon {
 
   .button-register{
       margin-right: 0;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
       font-size: 2.5rem;
   }
   .button-discord{
@@ -1632,7 +1635,16 @@ lord-icon {
   .logo_img img,
   .logo_img1 img {
     width: 38%;
-}
+  }
+
+  .lgx-footer-single{
+    margin-bottom: 0;
+  }
+
+  .lgx-footer-area{
+    padding-bottom: 0px !important;
+  }
+  
 }
 
 @media screen and (max-width:380px){
