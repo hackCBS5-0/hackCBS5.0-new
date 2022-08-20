@@ -1574,7 +1574,7 @@ lord-icon {
       font-size: 15vw;
       line-height: 110px;
       margin-top: -12vh;
-      margin-bottom: 1vh;
+      margin-bottom: 2vh;
   }
   .home_hackCBS>h1>span{
       font-size: 17vw;
@@ -1584,7 +1584,7 @@ lord-icon {
     margin-top: 20rem;
   }
   .home_hackCBS .text{
-      font-size: 6vw;
+      font-size: 6.5vw;
       padding: 0;
       margin: -2rem auto 0 auto;
       padding-left: auto;
@@ -1625,12 +1625,12 @@ lord-icon {
 
 @media screen and (max-width: 476px) {
   .home_hackCBS>h1 {
-      font-size: 14vw;
+      font-size: 14.5vw;
       line-height: 100px;
   }
 
   .home_hackCBS>h1>span{
-      font-size: 16vw;
+      font-size: 16.5vw;
   }
 
   .home_date-container .fa-calendar{
