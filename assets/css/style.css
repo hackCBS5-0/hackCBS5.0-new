@@ -529,7 +529,7 @@ a {
 }
 
 #speakers {
-  background-color: #f1f3f7;
+  background: #F8F5FF;
 }
 .speaker-card {
   height: 350px;
@@ -1258,7 +1258,8 @@ a {
 }
 
 #workshops {
-  background-color: #f9fafc;
+  margin-top: -10vh;
+  background: #F8F5FF;
   /* background-color: #5bc2e0; */
 }
 .flip-card {
