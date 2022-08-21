@@ -111,7 +111,7 @@ html{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 5rem;
   margin-bottom: 8rem;
 }
 
@@ -1528,7 +1528,7 @@ lord-icon {
 
 @media screen and (max-width:1039px){
   .home_hackCBS>h1 {
-      line-height: 190px;
+      /* line-height: 190px; */
   }
   .home_hackCBS>h1>span{
       font-size: 17rem;
@@ -1570,7 +1570,7 @@ lord-icon {
   .home_hackCBS>h1 {
       font-size: 15vw;
       line-height: 110px;
-      margin-top: -2vh;
+      margin-top: -12vh;
       margin-bottom: 2vh;
   }
   .home_hackCBS>h1>span{
@@ -1584,7 +1584,7 @@ lord-icon {
 @media screen and (max-width: 545px) {
   .home_date-container p {
     font-size: 2.7rem;
-    margin-top: 18rem;
+    margin-top: 15rem;
   }
   .home_hackCBS .text{
       font-size: 7vw;
@@ -1607,7 +1607,7 @@ lord-icon {
 
   .button-register{
       margin-right: 0;
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
       font-size: 2.5rem;
   }
   .button-discord{
