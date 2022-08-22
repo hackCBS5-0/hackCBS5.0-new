@@ -1802,6 +1802,10 @@ lord-icon {
   font-size: 24px;
 }
 
+.spklinks li a .fa-facebook-f{
+  font-size: 21px;
+}
+
 .speaker-card:hover .speaker-links{
   margin-top: -4.2rem;
   z-index: 99;
