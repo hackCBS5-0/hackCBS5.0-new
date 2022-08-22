@@ -1701,8 +1701,8 @@ lord-icon {
   }
 
   .workshop-card {
-      height: 80vw;
-      width: 55vw;
+      /* height: 80vw; */
+      /* width: 55vw; */
       padding: 10px 2vw 6px 2vw;
       border-radius: 2vw;
   }
@@ -1745,6 +1745,10 @@ lord-icon {
 
   #workshop-card-button>span{
       font-size: 2.7vw;
+  }
+
+  .workshop-btn button{
+    width: 35vw;
   }
 }
 
