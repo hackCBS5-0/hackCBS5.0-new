@@ -111,7 +111,7 @@ html{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 5rem;
   margin-bottom: 8rem;
 }
 
@@ -929,6 +929,28 @@ a {
   background-color: #555;
 }
 
+
+/*******Scroll Bar******/
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  background-image: linear-gradient(to bottom, rgb(236, 250, 255),rgb(209, 234, 255), rgb(220, 201, 255),rgb(241, 184, 255));
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b08bff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8D5DF5;
+}
+
+/*****Media*****/
+
 @media screen and (max-width: 1240px) {
   .swiper {
     height: 520px;
@@ -1529,7 +1551,7 @@ lord-icon {
 
 @media screen and (max-width:1039px){
   .home_hackCBS>h1 {
-      line-height: 190px;
+      /* line-height: 190px; */
   }
   .home_hackCBS>h1>span{
       font-size: 17rem;
@@ -1606,7 +1628,7 @@ lord-icon {
 
   .button-register{
       margin-right: 0;
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
       font-size: 2.5rem;
   }
   .button-discord{
@@ -1679,8 +1701,8 @@ lord-icon {
   }
 
   .workshop-card {
-      height: 80vw;
-      width: 55vw;
+      /* height: 80vw; */
+      /* width: 55vw; */
       padding: 10px 2vw 6px 2vw;
       border-radius: 2vw;
   }
@@ -1723,6 +1745,10 @@ lord-icon {
 
   #workshop-card-button>span{
       font-size: 2.7vw;
+  }
+
+  .workshop-btn button{
+    width: 35vw;
   }
 }
 
