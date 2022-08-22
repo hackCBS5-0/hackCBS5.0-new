@@ -929,6 +929,28 @@ a {
   background-color: #555;
 }
 
+
+/*******Scroll Bar******/
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  background-image: linear-gradient(to bottom, rgb(236, 250, 255),rgb(209, 234, 255), rgb(220, 201, 255),rgb(241, 184, 255));
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b08bff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8D5DF5;
+}
+
+/*****Media*****/
+
 @media screen and (max-width: 1240px) {
   .swiper {
     height: 520px;
