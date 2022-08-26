@@ -50,6 +50,10 @@ html{
   padding-top:16rem;
 }
 
+#top-logo-img{
+  width: 12vw;
+}
+
 .banner-parallax{
   background-image: url("../img/banner/9.jpg");
   /* Set a specific height */
@@ -1475,6 +1479,11 @@ a {
   .workshop-btn {
     padding: 5px;
   }
+
+  #top-logo-img{
+    width: 150px;
+  }
+
   .workshop-btn button {
     width: 140px;
     padding: 6px 10px;
