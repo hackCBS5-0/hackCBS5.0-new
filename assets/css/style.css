@@ -120,7 +120,7 @@ html{
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
-  padding: 1.2rem 5rem;
+  padding: 1.2rem 4rem;
   color: #FFFFFF;
   /* background: linear-gradient(45deg, #f87bdd, #ff69de, #ee36ff, #b51afd, #891bff, #a824ff); */
   background: linear-gradient(92.48deg, #FC5FD9 0.26%, #8D5DF5 39.81%, rgba(141, 93, 245, 0.5) 91.19%);
@@ -1667,6 +1667,9 @@ lord-icon {
 @media screen and (max-width: 545px) {
   .swiper {
     height: 320px;
+  }
+  .swiper .swiper-slide{
+    transform: scale(1.5);
   }
 }
 
