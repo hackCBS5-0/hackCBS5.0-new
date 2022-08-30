@@ -40,7 +40,7 @@ html{
 }
 
 .banner-parallax{
-  background-image: url("../img/banner/9.jpg");
+  background-image: url("../img/banner/banner.jpg");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
@@ -1647,7 +1647,7 @@ lord-icon {
     background: rgba(31, 38, 49, 0.64);
   }
   .banner-parallax{
-    background-image: url("../img/banner/banner-mobile-1.jpg");
+    background-image: url("../img/banner/banner.jpg");
   }
 
   .button-register{
