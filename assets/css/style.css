@@ -54,7 +54,7 @@ html{
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 13vw;
+  font-size: 12vw;
   /* line-height: 230px; */
   color: #F8F5FF;
   margin-top: 15vh;
@@ -470,6 +470,11 @@ a {
   padding-left: 0;
   padding-right: 0;
 }
+
+.lgx-photo-gallery-black .lgx-inner{
+  background: rgb(17 5 44 / 86%);
+}
+
 .swiper {
   height: 640px;
   width: 100%;
@@ -660,7 +665,8 @@ a {
   /* font-family: Montserrat; */
   position: relative;
   /* background: linear-gradient(-45deg,rgba(240, 139, 225, 0.402),rgba(228, 4, 240, 0.4)); */
-  background: linear-gradient(136.71deg, #F0E9FF 0%, rgba(180, 146, 255, 1) 97.19%, #B492FF 97.19%);
+  /* background: linear-gradient(136.71deg, #F0E9FF 0%, rgba(180, 146, 255, 1) 97.19%, #B492FF 97.19%); */
+  background: linear-gradient(-45deg,rgb(237 237 237 / 40%),#8c51f98a );
   backdrop-filter: blur(20px);
   box-shadow: 5px 5px 15px 0 rgba(27,3%,3%,25%);
   border-radius: 20px;
