@@ -1545,6 +1545,11 @@ lord-icon {
     width: 12rem;
 }
 
+/* Footer */
+.lgx-footer>  .lgx-inner-footer{
+  background-color: #0a080eb0 !important;
+}
+
 /* ************ Media Queries ************** */
 
 @media screen and (max-width:1227px) {
