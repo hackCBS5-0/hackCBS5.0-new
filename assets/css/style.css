@@ -1550,6 +1550,15 @@ lord-icon {
   background-color: #0a080eb0 !important;
 }
 
+#footer-addr a{
+  color: rgb(204, 161, 205);
+  /* color: rgb(120, 131, 137); */
+}
+
+#footer-addr a:hover{
+  color: rgb(252, 219, 253);
+}
+
 /* ************ Media Queries ************** */
 
 @media screen and (max-width:1227px) {
