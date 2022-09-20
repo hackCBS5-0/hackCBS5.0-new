@@ -26,7 +26,7 @@ window.addEventListener('load', function() {
             grabCursor: true,
             loop: true,
             loopedSlides: 8,
-            slidesPerView: 1.3,
+            slidesPerView: 1,
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev"
